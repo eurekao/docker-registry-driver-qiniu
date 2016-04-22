@@ -7,6 +7,7 @@ maintainer Zhang Peihao <zhangpeihao@gmail.com>
 # Update
 run apt-get update
 run apt-get -y upgrade
+run apt-get -y install swig
 
 # Install pip
 run apt-get -y install python-pip
